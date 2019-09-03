@@ -1,0 +1,47 @@
+	.welcome {
+		font-size: 60px;
+		font-weight: bold;
+		font-family: lucida calligraphy arial;
+		text-align: center;
+		color: #006600;
+		margin-top: 130px;
+		text-shadow: 2px 2px 0px #666;
+       -webkit-transition: .5s;
+       -moz-transition: .5s;
+       -o-transition: .5s;
+	}
+	.welcome:hover{
+		font-size: 65px;
+		color: #00b300;
+	}
+	#view{
+		background: #3399FF;
+		color: #fff;
+		border-radius: 5px;
+		display: block;
+        text-align: center;
+	}
+	#view:hover{
+		background: #66C2FF;
+		color: #3399FF;
+	}
+	
+	#contact{
+		background: #990099;
+		color: #fff;
+		border-radius: 5px;
+		display: block;
+        text-align: center;
+	}
+	#contact:hover{
+		background: #FF00FF;
+		color: #990099;
+	}
+textarea{
+	width: 350px;
+	height: 115px;
+	border: 1px solid #632920;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	padding: 6px;
+}
